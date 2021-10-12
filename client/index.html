@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Web socket</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+	<div class="container">
+		<section class="section">
+			<div class="columns">
+				<div class="column is-two-fifths">
+					<div class="card is-fixed">
+						<div class="card-content">
+							<form id="form">
+								<div class="block">
+									<input class="input" type="text" name="name" id="name" placeholder="Username">
+								</div>
+								<div class="block">
+									<input class="input" type="text" name="message" id="message" placeholder="Message">
+								</div>
+								<div class="block">
+									<input type="submit" value="Send" class="button is-link">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card messages">
+						<div class="card-content">
+							<div id="chat" class="chat"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="./index.js" defer></script>
+</body>
+</html>

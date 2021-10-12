@@ -1,0 +1,6 @@
+/node_modules
+/db
+/client/index.js
+/server/server.js
+/dist
+/piblic

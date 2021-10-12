@@ -1,0 +1,12 @@
+.card.is-fixed {
+	position: sticky;
+	top: 3rem;
+}
+
+.messages {
+	min-height: 216px;
+}
+
+.chat p {
+	margin-bottom: 1rem;
+}

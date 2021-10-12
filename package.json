@@ -1,0 +1,20 @@
+{
+  "name": "simple-websocket-chat",
+  "scripts": {
+    "dev": "tsc -p ./client && nodemon --config nodemon.json server/server.ts --watch server"
+  },
+  "author": "Eugene Zhurov",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/uuid": "^8.3.1",
+    "@types/ws": "^8.2.0",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
